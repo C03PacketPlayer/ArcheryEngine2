@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Engine">
+      <UniqueIdentifier>{8b1b16de-9163-46a6-b101-75a48e02bf53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Requires">
+      <UniqueIdentifier>{8a83f38a-4967-47e7-ab93-93402a918e55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Engine\include">
+      <UniqueIdentifier>{50f026b4-d35c-4b4a-b9d8-6a96a13f941c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Engine\src">
+      <UniqueIdentifier>{c793c494-e79b-42eb-9b50-34885e756bee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Engine\src\Figures">
+      <UniqueIdentifier>{91bc42db-b877-407c-90d4-861ed9267cb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Engine\src\Engine">
+      <UniqueIdentifier>{0e85cf3b-6f94-4465-9c43-53042218109f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EngineWindow.h">
+      <Filter>Pliki źródłowe\Engine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="ArcheryEngine.h">
+      <Filter>Pliki źródłowe\Engine\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Figures.h">
+      <Filter>Pliki źródłowe\Engine\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cyx.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangles.cpp">
+      <Filter>Pliki źródłowe\Engine\src\Figures</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowInitalizator.cpp">
+      <Filter>Pliki źródłowe\Engine\src\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Requests.cpp">
+      <Filter>Pliki źródłowe\Engine\src\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ExampleMath.cpp">
+      <Filter>Pliki źródłowe\Engine\src\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineWindow.cpp">
+      <Filter>Pliki źródłowe\Engine\src\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Archery\Librares\include\glad.c">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
